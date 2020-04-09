@@ -1,0 +1,15 @@
+{
+    "balaji": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-balajiproperty-balaji-181439-authRole",
+            "UnauthRoleArn": "arn:aws:iam::141280147781:role/amplify-balajiproperty-balaji-181439-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::141280147781:role/amplify-balajiproperty-balaji-181439-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-balajiproperty-balaji-181439-deployment",
+            "UnauthRoleName": "amplify-balajiproperty-balaji-181439-unauthRole",
+            "StackName": "amplify-balajiproperty-balaji-181439",
+            "StackId": "arn:aws:cloudformation:eu-west-1:141280147781:stack/amplify-balajiproperty-balaji-181439/e404e7f0-7a5f-11ea-b37c-0adf61345742",
+            "AmplifyAppId": "d24lo224mb6hhq"
+        }
+    }
+}
