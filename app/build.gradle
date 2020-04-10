@@ -45,6 +45,10 @@ dependencies {
     implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0'
     implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
     implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.navigation:navigation-runtime:2.0.0'
+    implementation 'android.arch.navigation:navigation-fragment:2.3.0-alpha04'
+    implementation 'android.arch.navigation:navigation-ui:2.3.0-alpha04'
+    implementation "androidx.navigation:navigation-dynamic-features-fragment:2.3.0-alpha04"
     //implementation 'com.amazonaws:aws-android-sdk-appsync-gradle-plugin:2.9.+'
 
 
