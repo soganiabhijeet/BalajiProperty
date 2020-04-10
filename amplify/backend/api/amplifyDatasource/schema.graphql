@@ -1,10 +1,20 @@
-type Task @model {
-  id: ID!
-  title: String!
-  description: String
-  status: String
+type Properties @model @key(fields: ["owner", "flatName"]) {
+  flatName: String!
+  address: String!
+  tenantName: String!
+  monthlyRent: String!
+  waterCost : Float!
+  electricityPerUnitCost : Float!
+  previousMonthElectricMeterReading : Int!
+  currentMonthElectricMeterReading : Int!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  status: Status!
+  owner : String!
 }
-type Note @model {
-  id: ID!
-  content: String!
+enum Status {
+  OCCUPIED
+  VACANT
+  UNDER RENOVATION
+  OTHER
 }
